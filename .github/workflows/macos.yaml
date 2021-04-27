@@ -25,3 +25,4 @@ jobs:
         ls ~
         ls /Applications
         ls /
+        find / -name "miniconda*"
