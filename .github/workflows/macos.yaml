@@ -15,7 +15,7 @@ jobs:
     - uses: actions/checkout@v2
 
     - name: download miniconda
-      run: wget https://repo.anaconda.com/miniconda/Miniconda3-py39_4.9.2-MacOSX-x86_64.pkg miniconda.pkg
+      run: wget https://repo.anaconda.com/miniconda/Miniconda3-py39_4.9.2-MacOSX-x86_64.pkg -O miniconda.pkg
 
     - name: install pkg
       run: installer -pkg -verbose miniconda.pkg
