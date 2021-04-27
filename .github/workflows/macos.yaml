@@ -19,3 +19,9 @@ jobs:
 
     - name: install pkg
       run: sudo installer -verbose -pkg miniconda.pkg -target ~
+
+    - name: check results
+      run: |
+        ls ~
+        ls ~/Applications
+        ls /Applications
