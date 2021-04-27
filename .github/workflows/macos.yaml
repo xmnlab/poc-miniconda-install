@@ -18,4 +18,4 @@ jobs:
       run: wget https://repo.anaconda.com/miniconda/Miniconda3-py39_4.9.2-MacOSX-x86_64.pkg -O miniconda.pkg
 
     - name: install pkg
-      run: installer -verbose -pkg miniconda.pkg
+      run: installer -verbose -pkg miniconda.pkg -target ~
